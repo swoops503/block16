@@ -42,7 +42,7 @@ function calculateTotal(customer) {
   return total;  // finally we return the total 
 }
 
-const timmyAmount = calculateTotal(timmy);
+const timmyAmount = calculateTotal(timmy);  // here we invoke the function for each of the objects declared above, then console.log the function for each
 
 console.log(`Timmy's grand total is $${timmyAmount}.`);
 
